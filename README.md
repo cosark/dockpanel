@@ -44,6 +44,10 @@ On the RHEL family the optional-service installers (Redis, Node.js, PowerDNS, WA
 Tunnel) work from the panel as of v2.40.0; the mail server still refuses there, and UFW refuses
 on any firewalld box by design. See [getting started](docs/getting-started.md#requirements).
 
+## One-Click Deploy
+
+[![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/DockPanel/)
+
 ## Why DockPanel?
 
 No other free panel gives you Git push-to-deploy with blue-green zero-downtime updates, 147 one-click Docker app templates, per-image CVE scanning with deploy gating, a WAF, passkey login, GPU passthrough, multi-server management, reseller accounts, a developer CLI, and Infrastructure as Code — all while the panel services themselves use under 20MB of RAM. DockPanel does.
